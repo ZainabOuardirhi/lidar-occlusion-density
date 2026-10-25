@@ -2,8 +2,6 @@
 
 **Density-aware occlusion assessment from RGB and LiDAR geometry**
 
-Zainab Ouardirhi
-
 FuDensityNet investigates geometric cues that can help identify object proposals affected by challenging visibility conditions. The present repository contains the proposal-level Occlusion Rate (OR) implementation, KITTI evaluation utilities, and visual results presented at the University of Antwerp.
 
 The pipeline projects LiDAR points into the camera image, collects the points within each proposed object region, separates near and far depth layers, measures foreground density at three voxel resolutions, and combines the resulting descriptors into an OR score.
