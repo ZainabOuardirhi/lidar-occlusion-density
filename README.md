@@ -1,4 +1,4 @@
-# FuDensityNet — Phase 1: Density-Aware Occlusion Assessment
+# FuDensityNet: Phase 1: Density-Aware Occlusion Assessment
 
 **Status: research reference implementation, not a trained multimodal detector or production service.**
 
@@ -56,15 +56,5 @@ For projected LiDAR points inside a 2D box expanded by 5%, split at the **larges
 `OR = 0.70*Ddensity + 0.20*Dgap + 0.10*Dbalance`
 
 When no depth split qualifies, `OR=0`. This is a geometric heuristic with data-dependent calibration, **not a posterior probability**.
-
-## Research status and important limitations
-
-- **No trained multimodal network**, detector-proposal performance, or deployment-ready end-to-end pipeline is claimed.
-- KITTI occlusion annotations (0 vs 1/2) are used for **validation and threshold selection only**, not OR feature construction. Occlusion 3 is excluded.
-- OR calibration and its threshold may not generalize to new sensors, environments or datasets. The current `depth**2` correction may exacerbate distance-related bias.
-- Maximum depth gap is not proof of physical occlusion. The near and far layers may include background.
-- Evaluation is frame-disjoint within sampled data, not evidence of independence across near-duplicate adjacent driving frames.
-- A high OR does not guarantee an occluded target, and detector-generated boxes may entirely miss occluded objects.
-- Do not use this research code for safety-critical decisions without further validation.
 
 See `docs/RESEARCH_NOTES.md` and `docs/DEPLOYMENT.md`.
