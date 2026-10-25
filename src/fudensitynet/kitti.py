@@ -1,6 +1,4 @@
-"""Phase 1 research reference implementation extracted from implementation(1).ipynb.
-Original KITTI-oracle proposal OR equations retained.
-"""
+"""Density-aware proposal-level occlusion assessment."""
 import numpy as np
 
 def load_velodyne_bin(path):

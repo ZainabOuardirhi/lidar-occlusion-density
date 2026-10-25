@@ -1,0 +1,7 @@
+metric,mean,std,evaluation
+ROC AUC,0.646542,0.015123,5 seeds 42-46
+Average precision,0.631319,0.018171,5 seeds 42-46
+Balanced accuracy,0.614012,0.015891,5 seeds 42-46
+TPR,0.676724,0.019701,5 seeds 42-46
+FPR,0.4487,0.039377,5 seeds 42-46
+Threshold,12,0,5 seeds 42-46

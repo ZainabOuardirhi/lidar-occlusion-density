@@ -1,9 +1,11 @@
 __pycache__/
 *.py[cod]
+*.egg-info/
 .ipynb_checkpoints/
 .pytest_cache/
 .venv/
 .env
+.vscode/
 data/
 *.bin
 *.zip
@@ -11,10 +13,7 @@ data/
 *.pt
 *.ckpt
 *.pkl
-*.csv
 runs/
 outputs/
 weights/
 .DS_Store
-
-*.egg-info/
