@@ -1,0 +1,1 @@
+Exploratory notebooks were reviewed but not copied wholesale: they contain historical approaches, embedded outputs, hardcoded private server paths, and experiments inconsistent with the final core scorer. This repo provides importable modules and command-line reproducibility instead.

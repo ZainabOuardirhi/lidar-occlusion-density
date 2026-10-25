@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fudensitynet-or"
+version = "0.1.0"
+description = "Research reference: density-aware proposal-level occlusion assessment"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "pandas>=1.5,<3", "scikit-learn>=1.2,<2", "Pillow>=9"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

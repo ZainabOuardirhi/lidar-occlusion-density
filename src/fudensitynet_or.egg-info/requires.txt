@@ -1,0 +1,7 @@
+numpy<3,>=1.24
+pandas<3,>=1.5
+scikit-learn<2,>=1.2
+Pillow>=9
+
+[dev]
+pytest>=7

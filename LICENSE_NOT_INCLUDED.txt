@@ -1,0 +1,1 @@
+No open-source license is granted by default. Please select and add an appropriate LICENSE before publicly publishing or accepting external contributions. Check institutional IP requirements.

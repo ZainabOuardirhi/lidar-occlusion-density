@@ -1,0 +1,1 @@
+Research presentation assets are not redistributed in the default code release. Review figure provenance and rights before committing selected visuals. Original Antwerp presentation remains in the user's uploaded materials.
