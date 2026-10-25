@@ -16,3 +16,5 @@ runs/
 outputs/
 weights/
 .DS_Store
+
+*.egg-info/
